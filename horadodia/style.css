@@ -1,0 +1,43 @@
+
+
+body{
+    background-image: linear-gradient(to right, #075933, #11D97C);
+}
+
+header{
+    font: normal 20pt arial;
+    font-weight: bolder;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    
+}
+
+section{
+   background: white;
+   width: 600px;
+   border-radius: 10px;
+   margin: auto;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+   
+
+}
+
+div{
+    padding-top: 5%;
+    text-align: center;
+     font: normal 20px arial;
+     font-weight: bolder;
+     padding-block-end: 5%;
+    
+        
+     
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(43, 58, 58);
+            text-decoration:none; 
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: brown;
+                    }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        /*quando temos ": :"(duas vezes dois ponto) significa um PSEUDO ELEMENTOS E O AFTER: SIGNIFICA DEPOIS DE TODOS OS  LINKS*/a::after{
+            content:"[link]" ; /*irá aparecer no final do link*/
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://myaccount.microsoft.com/" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://estudante.estacio.br/disciplinas/estacio_10149921/temas/5/conteudos/1" target="_blank">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">Site do curso em video</a></li>
+    </ul>
+</body>
+</html>

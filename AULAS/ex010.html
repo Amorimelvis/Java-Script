@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferir</title>
+</head>
+<body>
+    <h1>Sistema de aereo porto</h1>
+  
+    <input type="string" name="txt1" id="txt1">
+    <input type="button" value="verificar" onclick="comparar()">
+    <div id="pass"></div>
+
+    <script>
+       
+    function comparar() {
+           var paisInput = document.getElementById("txt1");
+           var pass = document.getElementById("pass");
+           var nome = paisInput.value;
+           
+
+           if(nome == "Brasil"){
+           pass.innerHTML = `<p>Bem-vindo ao ${nome}</p>`}else{
+            pass.innerHTML = `Voce não é do Brasil`
+           };
+    
+        }
+
+    </script>
+    
+</body>
+</html>

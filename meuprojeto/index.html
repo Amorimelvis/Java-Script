@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Dívidas Mensais</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Dívidas Mensais</h1>
+        <label for="amount">Valor da dívida:</label>
+        <input type="number" id="amount" placeholder="Insira o valor da dívida">
+        <label for="interestRate">Taxa de juros anual (%):</label>
+        <input type="number" id="interestRate" placeholder="Insira a taxa de juros anual">
+        <label for="months">Número de meses:</label>
+        <input type="number" id="months" placeholder="Insira o número de meses">
+        <button onclick="calculate()">Calcular</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

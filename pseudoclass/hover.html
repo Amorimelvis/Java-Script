@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houver</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+             }
+
+        /*SERVE PARA DEFINIR O PARAGRAFO FILHO DA DIV*/div > p {
+
+            display: none; /*SERVE PARA ECONDER O PARAGRAFO DENTRO DO DIV*/
+        }
+
+
+        /*SERVE PARA MOSTRAR O PARAGRAFO FILHO DA DIV*/div:hover > p {
+            display: block; /*VAI MOSRTRAR O PARAGRAFO ESCONDIDO*/
+        }
+        
+        
+        div:hover{
+            color: blueviolet
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Testando o houver</h1>
+    <p>passe o mouse aqui</p>
+    <div>passe p moouse sobre o texto
+        <p>texto econdido</p>
+    </div>
+
+    <p>Fim do exemplo</p>
+    
+</body>
+</html>

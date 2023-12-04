@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse</title>
+    <style>
+        div#acao{
+            font: normal 20pt arial;
+            font-weight: bold;
+            text-shadow:5px 5px 10px rgba(0, 0, 0, 0.842); ;
+            text-align: center;
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            border-radius:  100px;
+            color: white;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.842);  
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="acao" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
+        INTERAÇÃO...
+    </div>
+    
+<script>
+    var a = document.getElementById("acao")
+    var sit = document.getElementById("sit")
+    function clicar(){
+        a.innerText = ("Clicou!!")
+       window.location.href = "https://youtu.be/6T9usa_2aGw" 
+      
+
+    }
+
+    function entrou(){
+        a.innerHTML = ("Entrou")
+        a.style.background = "blue"
+    }
+
+    function saiu(){
+        a.innerHTML = ("saiu")
+        a.style.background = "brown";
+    }
+
+
+</script>
+</body>
+</html>

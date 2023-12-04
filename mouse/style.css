@@ -1,0 +1,18 @@
+div#area{
+
+    font: normal 15pt arial;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 850);  /*Cria sombra no texto*/
+    text-align: center;
+    line-height: 50px; /* DEIXA NO CENTRO DA DIV*/
+    width: 200px; /*ALTURA DA DIV*/
+    height: 50px;/*LARGURA DA DIV*/
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 850);
+    margin-left: auto;
+    margin-right: auto;
+    position:50%;
+    background: red 
+    
+    
+}
