@@ -1,0 +1,51 @@
+
+
+body{
+
+    background-color: rgb(145, 145, 245);
+}
+
+header{
+    font: normal 14pt arial;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.26);
+        
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 500px;
+    margin: auto;
+    border-radius: 8px 10px 8px 10px ;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.212);
+
+}
+
+div{
+    font: normal 14pt arial;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+#txtano{
+    width: 100px;
+
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+    font: italic 12pt arial;
+    
+    
+
+
+}
